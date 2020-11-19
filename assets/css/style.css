@@ -1,0 +1,73 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+
+.box {
+    
+    background: rgb(0, 19, 36);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 0%, rgba(69, 6, 119, 1) 45%, rgba(0, 212, 255, 1) 100%);
+}
+#card-user{
+    display: none;
+}
+/* #card-user1{
+    display: none;
+} */
+
+.name {
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+}
+
+.age {
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+}
+
+.city {
+    margin-top: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
